@@ -116,6 +116,16 @@ button{
     font-size: 1rem;
     font-weight: bold;
 }
+@media(max-width:1200px){
+    .hero{
+        background-image:url('Rectangle\ 4.png') ;
+        background-position: center ;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+}
 
 @media(max-width:600px){
     .hero{

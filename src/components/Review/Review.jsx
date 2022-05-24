@@ -14,13 +14,13 @@ const Review = () => {
                   <h3>Mobisola Olasehinde</h3>
                   <p>CEO, Weird Clothing Company</p> 
                   <p>
-                    <span className='quote1'><h6>``</h6></span>
+                    <span className='quote1'><span>``</span></span>
                     <br /> 
                     
                     Make your dream home a reality. We combine premium design and materials to give you the best satisfaction of your home. You can expect to receive the best experience from us.
                    
                     <br />
-                    <span className='quote2'><h6>``</h6></span>
+                    <span className='quote2'><>``</></span>
                   </p>
                   </div>
 

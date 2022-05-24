@@ -66,6 +66,10 @@ p{
     margin-top: 2rem;
 }
 
+@media(max-width:1200px){
+    
+}
+
 @media(max-width:600px){
     .review h2{
         text-align: center;

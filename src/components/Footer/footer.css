@@ -110,6 +110,9 @@ input{
 .mediaicons a{
     margin-right: 2rem;
 }
+@media(max-width:1200px){
+    
+}
 
 @media(max-width:600px){
     .footer{
