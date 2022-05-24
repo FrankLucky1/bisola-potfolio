@@ -1,0 +1,87 @@
+
+.main{
+    width: 100vw;
+    background-color:#E87652;
+    font-family: 'Rubik', sans-serif;
+}
+.containeer{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+}
+.text{
+    width: 90%;
+    margin-left: 2rem;
+    color: #fff;
+}
+.text h3{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.text p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 25px;
+    width: 55%;
+}
+.text a{
+    color: black;
+    text-decoration: none;
+}
+.text a:hover{
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 3px 5px;
+    transition: all 0.5s ease-in;
+}
+.picture{
+    background-image: url(Rectangle27.png);
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    width: 35rem;
+}
+
+@media(max-width:600px){
+
+    .containeer{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .text{
+        width: 80%;
+        margin: auto;
+        color: #fff;
+    }
+    .text h3{
+        font-size: 1.2rem;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    .text p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.6rem;
+        line-height: 12px;
+        width: 100%;
+        color: #fff;
+    }
+    .text a{
+        color: #fff;
+        border: #fff solid 2px;
+        padding: 2px 3px;
+        text-decoration: none;
+        font-size: 0.6rem;
+        border-radius: 4px;
+    }
+    .picture{
+       margin-bottom: 2rem;
+        height: 10rem;
+        width: 17rem;
+    }
+}

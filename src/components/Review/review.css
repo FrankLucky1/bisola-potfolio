@@ -1,0 +1,92 @@
+
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.review h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 3.275rem;
+    color: #231F20;
+}
+.review-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 5rem;
+}
+.ceo h3{
+    margin-bottom: .7rem;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: #231F20;
+}
+.ceo p{
+    margin-bottom: 2rem;
+    width:18rem ;
+}
+p{
+    color: #231F20;
+    font-family: 'Rubik', sans-serif;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+}
+.alignment{
+    border: solid 1.5rem #abaaab;
+    border-radius: 50%;
+    height: 100%;
+    margin-left: 13rem;
+}
+
+.main-picture{
+    background-image: url(Ellipse\ 1.png);
+    background-size: 160%;
+    background-position: center;
+    border: solid 1.5rem #231F20;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+}
+.quote1 h6{
+    font-size: 3rem;
+    height: .8rem;
+}
+.quote2 h6{
+    font-size: 3rem;
+    height: .8rem;
+    margin-top: 2rem;
+}
+
+@media(max-width:600px){
+    .review h2{
+        text-align: center;
+    }
+    .review-container{
+        display: block;
+        margin: 2px auto;
+    }
+    .user{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .alignment{
+        border: solid 1.5rem #abaaab;
+        border-radius: 50%;
+        height: 100%;
+        margin: auto;
+    }
+
+        
+}

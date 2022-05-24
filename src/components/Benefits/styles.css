@@ -1,0 +1,21 @@
+.benefit{
+    margin-top: 5rem;
+    text-align: center;
+    height: 155vh;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 3.275rem;
+    color: #231F20;
+}
+@media(max-width:600px){
+   .benefit{ 
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height: 380vh;
+    
+    }
+}
